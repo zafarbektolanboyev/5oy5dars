@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .timer-container {
+    text-align: center;
+    margin-top: 50px;
+    }
+
+    #timer {
+    font-size: 48px;
+    }
+
+    button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    }
+    </style>
+</head>
+<body>
+    <div class="timer-container">
+        <h1 id="timer">00:00</h1>
+        <button id="startBtn" onclick="startTimer()">Start</button>
+        <button id="pauseBtn" onclick="pauseTimer()">Pause</button>
+      </div>
+    <script src="./app.js"></script>
+</body>
+</html>
